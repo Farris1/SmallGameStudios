@@ -1,0 +1,664 @@
+body {
+  font-family: "Oswald",Helvetica,Arial,sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* overflow-y: hidden; */
+  /* background-image: url("https://preview.redd.it/qmfjuz883g7z.png?width=1024&s=c5e92c9c5e20b147ef13daf77eab47dae203496f"); */
+  background-color: #e5e5e5;
+  /* background-color: #222831; */
+  margin: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+    margin: 0;
+}
+
+.Terms:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.Terms {
+  text-decoration: none;
+  color: white;
+}
+
+.SmallGamesLogoWhite:hover {
+  transform: scale(1.1);
+}
+
+.SocialMedia {
+  margin-top: 85px !important;
+  height: 60px !important;
+}
+
+.Company_Text_Info {
+  color: #fafafa;
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.EmailIcon_Link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.EmailIcon_Link {
+  margin-left: 20px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.EmailIcon_Image {
+  margin-top: 10px;
+  margin-left: 20px;
+  height: 20px;
+}
+
+.SmallGamesLogoWhite {
+  margin-top: 30px;
+  margin-left: 20px;
+  /* margin-right: 150px; */
+  height: 35px;
+}
+
+#footer {
+  background-color: #393e46;
+  height: 400px;
+}
+
+
+#logo {
+  padding: 20px 20px;
+  top:0;
+  left:0;
+}
+
+
+.SmallGameStudio_footer {
+  margin-top: 350px;
+}
+
+#video-content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.video_h1 {
+  margin-top: 100px;
+}
+
+.video_p {
+  font-size: 15px;
+  width: 450px;
+  text-transform: uppercase;
+}
+
+.CenteredText{
+  margin-top: 35px;
+  color: white;
+}
+
+/* .CenteredText_Span{
+  color: white;
+  font-weight: bold;
+} */
+
+.NavbarLinks_Video{
+  margin-right: 450px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 25px;
+  text-decoration: none;
+  word-spacing: 30px;
+  font-size: 25px;
+  color: black !important;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #ffe4e4;
+}
+
+::selection {
+  color: white;
+  background: #ffe4e4;
+}
+
+.NavbarLinks_Games{
+  margin-right: 635px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 25px;
+  text-decoration: none;
+  word-spacing: 30px;
+  font-size: 25px;
+  color: black !important;
+}
+
+#LearnMore {
+    margin-top: 150px;
+    margin-bottom: 300px;
+    color: white;
+}
+
+.games_image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#games {
+  background-color: #393b44;
+  margin: 0;
+}
+
+#background {
+  height: 1500px;
+  background-color: #393b44
+}
+
+
+
+.games_content_fig_desc {
+  color: white !important;
+  width: 250px;
+  margin-top: 15px;
+}
+
+.games_content {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.read_more:hover {
+  font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+.read_more {
+  text-decoration: none;
+}
+
+.games_content_fig_desc_read_more {
+  color: red !important;
+}
+
+.games_content_fig {
+  margin-left: 55px;
+  color: black;
+  color: #ffec00;
+}
+
+.content_game_h3 {
+  margin-top: 150px !important;
+  margin-right: 885px !important;
+  color: #ffec00;
+}
+
+.content_game_desc {
+  margin-right: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.games_content_image {
+  margin-left: 35px !important;
+}
+
+.download_button_content {
+  margin-right: 400px !important;
+  margin-top: 210px !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.content_game_p {
+  margin-top: 195px;
+  width: 400px;
+  color: white;
+}
+
+.download_button:hover {
+  transform: scale(1.1);
+}
+
+.download_button {
+  background-color: #ff7171; /* Default Website Color Scheme */
+  margin: 25px 55px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.games_image {
+  height: 200px;
+  margin: 25px 25px;
+  margin-bottom: 25px;
+  border-radius: 50px;
+}
+
+/* @media (max-width: 980px) {
+.games_image {
+  height: 100px;
+  margin: 25px 25px;
+  margin-bottom: 25px;
+  }
+} */
+
+
+
+#background_grass {
+  background-image: url("https://preview.redd.it/qmfjuz883g7z.png?width=1024&s=c5e92c9c5e20b147ef13daf77eab47dae203496f");
+  /* margin-top: 45px;
+   padding: 5px; */
+  height: 750px;
+}
+
+#LearnMore:hover{
+    color: white;
+}
+
+.Copyright_Text {
+  margin-bottom: 5px;
+  color: white;
+}
+.LearnButton:hover {
+  color: white;
+  background-color: #d9adad;
+}
+
+.LearnButton {
+  width: 150px;
+}
+
+.FooterLinks:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#FooterLinks {
+    word-spacing: 30px;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.FooterLinks {
+  color: white;
+  text-decoration: none;
+}
+
+.NavbarLinks_Home{
+  margin-right: 800px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 25px;
+  text-decoration: none;
+  word-spacing: 30px;
+  font-size: 25px;
+  color: black !important;
+}
+
+.NavbarLinks_Contact {
+  margin-right: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 25px;
+  text-decoration: none;
+  word-spacing: 30px;
+  font-size: 25px;
+  color: black !important;
+}
+
+.LearnMore_Social {
+  margin-right: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 25px;
+  text-decoration: none;
+  word-spacing: 30px;
+  font-size: 25px;
+  color: black !important;
+}
+
+.ArrowUpIcon {
+  height: 45px;
+}
+
+.LearnMore_P {
+  color: black;
+  font-size: 20px;
+  width: 500px;
+}
+
+.LearnMore_Desc:hover {
+  background-color: #d9adad; /* Default Website Hover Color Scheme*/
+}
+
+.LearnMore_H1 {
+  color: black;
+  font-size: 35px;
+}
+
+.LearnMore_Desc {
+  background-color: #ff7171; /* Default Website Color Scheme */
+  margin-top: 25px;
+  margin-right: 50px;
+  border: none;
+  color: white;
+  padding: 10px 20px;  /* Default Padding was 15px 32px;*/
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.NavbarLinks_Home:hover{
+  color: white !important;
+  height: 53px;
+  background-color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.NavbarLinks_Contact:hover{
+  color: white !important;
+  height: 53px;
+  background-color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.NavbarLinks_Games:hover{
+  color: white !important;
+  height: 53px;
+  background-color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.NavbarLinks_Video:hover{
+  color: white !important;
+  height: 53px;
+  background-color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.GooglePlay_Icon {
+  /* margin-right: 600px; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 25px;
+  word-spacing: 30px;
+  font-size: 45px;
+  height: 45px;
+}
+
+.itch_image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.itch_image {
+  height: 50px;
+  border-radius:35px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.googleplay_image:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.QuickLinks_Links:hover {
+  transform: scale(1.1);
+}
+
+.QuickLinks_Links {
+  color: #fafafa;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-decoration: none;
+}
+
+.QuickLinks {
+  margin-top: 85px;
+  margin-right: 550px;
+}
+
+.subscribe {
+  margin-top: 85px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+input[type=text], select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.subscribe_h1 {
+  margin-bottom: 20px;
+  color: #fafafa;
+}
+
+.subscribe_button:hover {
+  transform: scale(1.1);
+}
+
+.subscribe_button {
+    margin-right: 65;
+    background-color: #ff7171;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block !important;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.QuickLinks_Contant {
+  margin-top: 130px;
+  margin-right: 535px;
+}
+
+.QuickLinks_Games {
+  margin-top: 175px;
+  margin-right: 542px;
+}
+
+.QuickLinks_Videos {
+  margin-top: 220px;
+  margin-right: 542px;
+}
+
+.QuickLinks_Terms {
+  margin-top: 265px;
+  margin-right: 430px;
+}
+
+.copyright_message {
+  padding-top: 3px;
+  color: #fafafa;
+}
+
+.Privacy:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.Privacy {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.message_development {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 200px;
+  margin-right: 100px;
+  width: 500px;
+  color: white;
+}
+
+.subscribe {
+  margin-right: 150px;
+  margin-top: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#copyright {
+  height: 65px;
+  background-color: #455d7a;
+}
+
+.QuickLinks_h1 {
+  margin-bottom: 100px;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+  color: white;
+}
+
+.Logo_Header {
+  margin-top: 200px;
+}
+
+.googleplay_image {
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+/* .Itch_Footer_Icon {
+  margin-right: 600px; */
+  /* margin-bottom: 20px;
+  margin-top: 150px;
+  border-radius: 75px;
+  padding: 25px 25px;
+  font-size: 45px;
+  height: 45px;
+} */
+
+.GooglePlay_Footer_Icon:hover {
+  transform: scale(1.1);
+}
+
+.GooglePlay_Footer_Icon {
+  /* margin-right: 600px; */
+  /* margin-bottom: 20px; */
+  margin-top: 50px;
+  padding: 25px 15px;
+  font-size: 45px;
+  height: 45px;
+}
+
+/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.SmallGamesLogo:hover {
+  transform: scale(1.1);
+}
+
+.GooglePlay_Icon:hover {
+  transform: scale(1.5);
+
+}
+
+.Itch_io_Icon:hover {
+  transform: scale(1.5);
+}
+
+.Itch_io_Icon {
+  margin-right: 150px;
+  /* margin-right: 600px; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 25px 25px;
+  font-size: 45px;
+  border-radius: 75px;
+  height: 45px;
+}
+
+#container {
+  width: 100%;
+  max-width: 1100%;
+}
+
+#Navbar {
+  /* position: fixed;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  background-color: white !important;
+}
+.LearnButton {
+  background-color: #ff7171; /* Default Website Color Scheme */
+  margin-top: 25px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #ff5757;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  color: white !important;
+  background-color: #ff5757;
+}
+
+
+/* Footer Wavy CSS */

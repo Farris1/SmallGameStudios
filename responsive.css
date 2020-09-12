@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    /*  Define CSS rules for mobile device here */
+
+    .col-2,
+    .col-3{
+        width: 100% !important;
+    }
+
+}
+
+
+
+/*  CSS rules for rest of the screen size  */
+/* .background_grass{
+    min-height: 10vh;
+    float: left;
+    text-align: center;
+} */
+
+#background_grass{
+    width: 100%;
+
+}
+
+#Navbar{
+    width: 50%;
+}
+
+.col-3{
+    width: 33.3%;
+    background: cyan;
+}
